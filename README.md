@@ -1,4 +1,4 @@
-##**Ecommerce With Golang
+##**E-commerce With Golang
 
 ```bash
 # You can start the project like so...
@@ -11,15 +11,15 @@ http://localhost:8000/users/signup
 
 ```json
 {
-  "first_name": "Akhil",
-  "last_name": "Sharma",
-  "email": "akhil@gmail.com",
-  "password": "akhilsharma",
+  "first_name": "name",
+  "last_name": "surnmae",
+  "email": "email",
+  "password": "password",
   "phone": "+4534545435"
 }
 ```
 
-Response :"Successfully Signed Up!!"
+Response:"Successfully Signed Up!!"
 
 - **LOGIN FUNCTION API CALL (POST REQUEST)**
 
@@ -27,8 +27,8 @@ Response :"Successfully Signed Up!!"
 
 ```json
 {
-  "email": "akhil@gmail.com",
-  "password": "akhilsharma"
+  "email": "email",
+  "password": "password"
 }
 ```
 
@@ -37,10 +37,10 @@ response will be like this
 ```json
 {
   "_id": "***********************",
-  "first_name": "akhil",
-  "last_name": "sharma",
+  "first_name": "name",
+  "last_name": "surname",
   "password": "$2a$14$UIYjkTfnFnhg4qhIfhtYnuK9qsBQifPKgu/WPZAYBaaN17j0eTQZa",
-  "email": "akhil@gmail.com",
+  "email": "email",
   "phone": "+4534545435",
   "token": "eyJc0Bwcm90b25vbWFpbC5jb20iLCJGaXJzdF9OYW1lIjoiam9zZXBoIiwiTGFzdF9OYW1lIjoiaGVybWlzIiwiVWlkIjoiNjE2MTRmNTM5ZjI5YmU5NDJiZDlkZjhlIiwiZXhwIjoxNjMzODUzNjUxfQ.NbcpVtPLJJqRF44OLwoanynoejsjdJb5_v2qB41SmB8",
   "Refresh_Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IiIsIkZpcnLCJVaWQiOiIiLCJleHAiOjE2MzQzNzIwNTF9.ocpU8-0gCJsejmCeeEiL8DXhFcZsW7Z3OCN34HgIf2c",
@@ -164,7 +164,7 @@ response:
 {
   "house_name": "white house",
   "street_name": "white street",
-  "city_name": "washington",
+  "city_name": "Manzini",
   "pin_code": "332423432"
 }
 ```
